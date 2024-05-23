@@ -1,0 +1,63 @@
+/* DeleteBooking.css */
+
+.delete-booking-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .delete-booking-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  
+  .delete-booking-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .delete-booking-container label {
+    font-weight: bold;
+    color: #454545;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .delete-booking-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .delete-booking-container button {
+    padding: 10px;
+    background-color: #e0524d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-booking-container button:hover {
+    background-color: #ae1d18;
+  }
+  
+  .delete-message {
+    color: blue;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

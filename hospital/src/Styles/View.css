@@ -1,0 +1,97 @@
+/* ViewAppointments.css */
+
+.view-appointments-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    background-color: #EEF5FF;
+  }
+  
+  .email-container {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+
+  }
+  
+  .email-container h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+  
+  .email-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email-container label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .email-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .email-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .appointments-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .appointments-container h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color:#0261c7
+  }
+  
+  .appointment-box {
+    padding: 15px;
+    border: 2px solid #696666;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .appointment-box p {
+    margin: 5px 0;
+  }
+  

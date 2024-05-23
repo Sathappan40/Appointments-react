@@ -1,0 +1,27 @@
+.nav {
+    width: auto;
+    height: 80px;
+    display: flex;
+    gap: 20px; /* Adjust the spacing as needed */
+    background-color: #2A629A;
+    padding-left: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: color 0.3s;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:520;
+  }
+  
+  .nav-link:hover {
+    color: #FF004D;
+  }
+

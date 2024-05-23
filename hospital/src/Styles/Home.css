@@ -1,0 +1,41 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height:81.3vh;
+  }
+  
+  .home-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #B4D4FF; 
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    color: #190482;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 70px;
+    font-weight: 500;
+  }
+  
+  .home-image {
+    /* background-color: red; */
+    flex: 1;
+    
+    /* background-image: url('../Components/react2.jpg'); */
+    background-size:inherit; /* Fit the image inside the div without distortion */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-color: #B4D4FF;
+  }
+
